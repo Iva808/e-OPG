@@ -1,0 +1,12 @@
+	<xs:element name="Automobil">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Proizvodi" type="xs:string"/>
+				<xs:element name="Model" type="xs:string"/>
+				<xs:element name="Cijena" type="CijenaAutomobila"/>
+				<xs:element name="Osobine" type="OsobineAutomobila"/>
+				<xs:element name="DodatnaOprema" type="DodatnaOpremaAutomobila"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
